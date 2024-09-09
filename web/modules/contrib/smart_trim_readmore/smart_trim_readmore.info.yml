@@ -1,0 +1,12 @@
+name: 'Smart Trim Readmore'
+type: module
+description: 'Provides an extra formatter for smart trim module.'
+package: Fields
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - smart_trim:smart_trim
+
+# Information added by Drupal.org packaging script on 2023-01-07
+version: '8.x-1.0-beta4'
+project: 'smart_trim_readmore'
+datestamp: 1673093929
