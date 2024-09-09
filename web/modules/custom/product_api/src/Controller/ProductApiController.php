@@ -77,8 +77,7 @@ final class ProductApiController extends ControllerBase {
         'id' => $node->id(),
         'title' => $node->getTitle(),
         'body' => $node->get('body')->value,
-        'field_movie_price' => $node->get('field_price')->value,
-        'field_image' => $node->get('field_product_image')->entity ? $node->get('field_product_image')->entity->url() : '',
+        'field_product_price' => $node->get('field_price')->value,
       ];
     }
 
