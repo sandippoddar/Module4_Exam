@@ -1,0 +1,38 @@
+uuid: a56e9723-bc55-4c76-b0bb-6d640733306e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products_related_type
+  module:
+    - system
+    - taxonomy
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__products_related_type_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:products_related_type-block_1'
+settings:
+  id: 'views_block:products_related_type-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/taxonomy/term/*'
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      product_category: product_category

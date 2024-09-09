@@ -1,0 +1,31 @@
+uuid: 7da52ec8-bc04-42f5-a152-c16dd96e6d4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - admin_toolbar_search
+    - block_content
+    - contact
+    - field_ui
+    - node
+    - search
+    - toolbar
+id: customer
+label: Customer
+weight: 4
+is_admin: null
+permissions:
+  - 'access block library'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer search'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'change own username'
+  - 'search content'
+  - 'use admin toolbar search'
+  - 'use advanced search'
+  - 'view user email addresses'
