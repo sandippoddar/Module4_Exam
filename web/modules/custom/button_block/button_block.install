@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+function button_block_schema() {
+  $schema['button_block_data'] = [
+    'description' => 'Stores the form data submitted by the dynamic form.',
+    'fields' => [
+      'nid' => [
+        'type' => 'int',
+        'not null' => TRUE,
+      ],
+
+      'uid' => [
+        'type' => 'int',
+        'not null' => TRUE,
+      ],
+
+      'click_count' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 1,
+      ],
+    ],
+    'primary key' => ['nid','uid'],
+  ];
+
+  return $schema;
+}

@@ -1,0 +1,13 @@
+button_block.add_to_cart:
+  path: '/add-to-cart/{node}'
+  defaults:
+    _controller: '\Drupal\button_block\Controller\CartController::addToCart'
+  requirements:
+    _permission: 'access content'
+
+button_block.buy_now:
+  path: '/buy/{node}'
+  defaults:
+    _controller: '\Drupal\button_block\Controller\BuyController::buyCart'
+  requirements:
+    _permission: 'access content'
