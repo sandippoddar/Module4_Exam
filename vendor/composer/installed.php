@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '1291ac4ebbdf591cbf216fd09f808bc956a6fef7',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e48ec1391a678757e6933d98a51d948c668aeea0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -137,9 +137,9 @@
             'dev_requirement' => true,
         ),
         'doctrine/annotations' => array(
-            'pretty_version' => '1.14.3',
-            'version' => '1.14.3.0',
-            'reference' => 'fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af',
+            'pretty_version' => '1.14.4',
+            'version' => '1.14.4.0',
+            'reference' => '253dca476f70808a5aeed3a47cc2cc88c5cab915',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/annotations',
             'aliases' => array(),
@@ -398,9 +398,9 @@
             'dev_requirement' => false,
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '1291ac4ebbdf591cbf216fd09f808bc956a6fef7',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e48ec1391a678757e6933d98a51d948c668aeea0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
